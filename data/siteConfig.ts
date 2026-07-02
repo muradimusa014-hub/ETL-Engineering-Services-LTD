@@ -1,9 +1,9 @@
 export const siteConfig = {
-  companyName: "Tikshood Engineering Limited",
-  colors: {
-    primary: "bg-orange-700", 
-    primaryHover: "hover:bg-orange-600",
-    textHighlight: "text-orange-400", 
+  companyName: "Dismento Nigeria Ltd",
+colors: {
+  primary: "bg-neutral-900", 
+  primaryHover: "hover:bg-neutral-700",
+  textHighlight: "text-cyan-500",
   },
   contact: {
     phone: "+234 812 275 7448", 
