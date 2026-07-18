@@ -1,14 +1,37 @@
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
 import { services } from "@/data/services";
-import { Building, HardHat, Truck, Ruler, ArrowRight, CheckCircle2 } from "lucide-react";
+import {
+  Building,
+  HardHat,
+  Truck,
+  Ruler,
+  ArrowRight,
+  CheckCircle2,
+  Cpu,
+  CircuitBoard,
+  Bot,
+  GraduationCap,
+  Wrench,
+  Cog,
+  Factory,
+  ClipboardCheck,
+} from "lucide-react";
 
 // Helper to map string names from data to actual Lucide components
 const IconMap = {
-  Building: Building,
-  HardHat: HardHat,
-  Truck: Truck,
-  Ruler: Ruler,
+  Building,
+  HardHat,
+  Truck,
+  Ruler,
+  Cpu,
+  CircuitBoard,
+  Bot,
+  GraduationCap,
+  Wrench,
+  Cog,
+  Factory,
+  ClipboardCheck,
 };
 
 export default function Home() {
